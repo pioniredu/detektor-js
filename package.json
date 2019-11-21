@@ -1,0 +1,16 @@
+{
+  "name": "detektor",
+  "version": "1.0.0",
+  "description": "piece of code that detects if input is cyrillic or latin",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cyrillic",
+    "latin",
+    "detector"
+  ],
+  "author": "",
+  "license": "ISC"
+}
