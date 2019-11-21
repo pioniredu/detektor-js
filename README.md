@@ -4,6 +4,8 @@ It will output strings of ISO codes for the appropriate script ('Cyrl' and 'Latn
   
 Just pass it a string and it will output the result.  
   
+The test folder contains a simple ava test, you can configure it differently if you wish.  
+  
 For example:  
 ``` javascript  
 const detektor = require('detektor'); //initializing the package  

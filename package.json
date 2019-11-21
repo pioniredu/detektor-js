@@ -1,6 +1,6 @@
 {
   "name": "detektor",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "piece of code that detects if input is cyrillic or latin",
   "main": "main.js",
   "scripts": {
@@ -11,11 +11,21 @@
     "latin",
     "detector"
   ],
-  "author": "",
+  "author": "Baboslav",
   "license": "ISC",
   "directories": {
     "test": "tests"
   },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "ava": "2.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baboslav/detektor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Baboslav/detektor/issues"
+  },
+  "homepage": "https://github.com/Baboslav/detektor#readme"
 }
