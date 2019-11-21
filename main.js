@@ -1,5 +1,5 @@
 module.exports = {
-    odredi = function (word) {
+    odredi: function (word) {
         let regExp = /\p{sc=Cyrillic}/gui;  //RegExp for matching cyrillic characters
         let counterLat = word.match(/\w/gui) || false;   //takes the latin characters from the first 512 characters in a string
         if (counterLat) {

@@ -1,10 +1,10 @@
 {
   "name": "detektor",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "piece of code that detects if input is cyrillic or latin",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx ava ./tests/main.js"
   },
   "keywords": [
     "cyrillic",
@@ -12,5 +12,10 @@
     "detector"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {}
 }
