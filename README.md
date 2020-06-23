@@ -8,10 +8,9 @@ The test folder contains a simple ava test, you can configure it differently if 
   
 For example:  
 ``` javascript  
-const detektor = require('detektor'); //initializing the package  
-console.log(detektor.odredi('random string of text')); //output will be Latn  
-console.log(detektor.odredi('текст текст текст'))// output will be Cyrl  
-console.log(detektor.odredi('text текст'))/*cyrillic text is more numerous by 1 character,  thus giving an output of Cyrl*/  
+import odredi from '@pionir/detektor-js'; //initializing the package  
+console.log(odredi('random string of text')); //output will be Latn  
+console.log(odredi('текст текст текст'))// output will be Cyrl  
+console.log(odredi('text текст'))/*cyrillic text is more numerous by 1 character,  thus giving an output of Cyrl*/  
 ```  
-  
-I've also linked the npm page if you want to get it over there: https://www.npmjs.com/package/detektor  
+you can also check it out on npm: https://www.npmjs.com/package/@pionir/detektor-js

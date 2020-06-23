@@ -1,31 +1,39 @@
 {
-  "name": "detektor",
-  "version": "1.0.3",
+  "type": "module",
+  "module": "./main.mjs",
+  "name": "@pionir/detektor-js",
+  "version": "2.0.0",
   "description": "piece of code that detects if input is cyrillic or latin",
-  "main": "main.js",
+  "main": "main.mjs",
   "scripts": {
     "test": "npx ava ./tests/main.js"
   },
   "keywords": [
     "cyrillic",
     "latin",
-    "detector"
-  ],
-  "author": "Baboslav",
-  "license": "ISC",
+    "detector",
+    "detector-js"
+    ],
+  "author": "Vuk",
+  "license": "GPL-3.0-only",
   "directories": {
     "test": "tests"
   },
   "dependencies": {},
   "devDependencies": {
-    "ava": "2.4.0"
+    "ava": "^2.4.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Baboslav/detektor.git"
+    "url": "git+https://github.com/pioniredu/detektor-js.git"
   },
   "bugs": {
-    "url": "https://github.com/Baboslav/detektor/issues"
+    "url": "https://github.com/pioniredu/detektor-js/issues"
   },
-  "homepage": "https://github.com/Baboslav/detektor#readme"
+  "homepage": "https://github.com/pioniredu/detektor-js#readme",
+  "ava": {
+    "require": [
+      "esm"
+    ]
+  }
 }
